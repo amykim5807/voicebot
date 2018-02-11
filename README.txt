@@ -1,6 +1,6 @@
 Running the web app:
 - Install node/npm
-- Install dependencies
+- Install dependencies in main folder and in data_api
 - Setup local server (any port)
 - Navigate to data_api folder and run 'node server.js'
 - Open webpage (localhost:port/index.html)
