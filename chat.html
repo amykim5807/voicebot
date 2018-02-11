@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="test page">
+        <meta name="author" content="Amy">
+        
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title> Micronotes Chat </title>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' 
+        rel='stylesheet' type='text/css'>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+        
+        <script type="text/javascript" src="chat.js"></script>
+        <script type="text/javascript" src="chatbox.js"></script>
+    </head>
+
+
+    <body>
+        <header>
+        <img src="logo.jpg" alt="Logo" height="52" width="200"> 
+        <i id="menu" class="fa fa-bars fa-lg"></i>
+        </header>
+        
+        <div id="main"></div>
+        <div id="sub" class='footer'>
+            <input id="input" onfocus="this.value=''" type="text">
+            <button id="rec" onclick="startRecognition()" class="fa-stack fa 2x">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-microphone fa-stack-lg"></i>
+            </button>
+        </div>
+    </body>
+    
+</html>

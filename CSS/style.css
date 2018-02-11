@@ -1,0 +1,103 @@
+html {
+  font-family: 'Montserrat';
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #f3f3f3;
+}
+
+a:visited,
+a:link{
+    color: dimgray;
+}
+
+a:hover{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+/*Header elements*/
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    align-content: center;
+}
+
+.footer{
+    display:inline-block;
+    width:100%;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    height:50px;
+    padding:10px;
+    text-align: center;
+}
+
+.fa-bars{
+    float: right;
+    vertical-align: middle;
+    padding: 18px;
+}
+
+/*Microphone icon*/
+#mic_icon{
+    float:none;
+    display: block;
+    margin:0 auto;
+    width: 150px;
+    text-align: center;
+}
+#main{
+    width:100%
+}
+
+.query{
+    text-align: right;
+    padding:25px;
+    text-decoration-color: dimgrey
+}
+
+.response{
+    text-align: left;
+    padding:25px;
+}
+
+.interview{
+    font-size:15px;
+}
+.question{
+    text-align: left;
+    padding:50px;
+}
+.answer{
+    text-align: right;
+    padding: 50px;
+}
+
+input { 
+    width: 90%; 
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+#rec { 
+    border: none;
+    background: none;
+    width: 5%; 
+}
